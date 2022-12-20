@@ -1,0 +1,10 @@
+There are a few comands to notr for git
+1. to start git init (creates and initializes git in that folder)
+2. then do git remote add origin https://github.com ..........git
+3.add authentication for that repo with (PAT)infront  : git remote set-url origin https://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@github.com/Akinbabs54/DevOpsLef
+4.do git fetch to fetch files on github online
+5. Use git add . to add all files in the folder or git add <filename>
+5. do git commit -m "comment"
+6. git push origin main
+7. git status
+9. to pull
