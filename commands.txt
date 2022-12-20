@@ -7,4 +7,8 @@ There are a few comands to notr for git
 5. do git commit -m "comment"
 6. git push origin main
 7. git status
-9. to pull
+9. to pull:
+when you do git pull origin main and you have the error: you need to reconcile your branch 
+use git config pull.rebase false #to configure it to merge
+BUT its still says refusing to merger so use:
+git pull --allow-unrelated-histories
